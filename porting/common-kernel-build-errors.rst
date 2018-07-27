@@ -31,6 +31,8 @@ Example of the error::
        
 Set ``CONFIG_USER_NS`` to ``n`` in your defconfig.
 
+NOTE: You may need unset CONFIG_UIDGID_STRICT_TYPE_CHECKS if you encounter more errors relating to kuid_t.
+
 Firmware class error
 ----------------------
 
